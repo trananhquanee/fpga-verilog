@@ -1,5 +1,5 @@
 $date
-	Tue Apr  7 21:37:58 2026
+	Tue Apr  7 22:02:29 2026
 $end
 $version
 	Icarus Verilog
@@ -7,12 +7,12 @@ $end
 $timescale
 	1ps
 $end
-$scope module MUX21_tb $end
+$scope module half_adder_tb $end
 $scope module uut $end
 $var wire 1 ! a $end
 $var wire 1 " b $end
-$var wire 1 # sel $end
-$var wire 1 $ y $end
+$var wire 1 # carry $end
+$var wire 1 $ sum $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -20,19 +20,17 @@ $enddefinitions $end
 $dumpvars
 0$
 0#
-1"
+0"
 0!
 $end
 #10000
 1$
-0"
 1!
 #20000
 1"
 0!
-1#
 #30000
 0$
-0"
+1#
 1!
 #40000
